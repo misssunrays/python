@@ -20,3 +20,9 @@ average=(num1+num2)/2
 print ("the average of two numbers is:",average)
 print ("the changes are added")
 print ("the changes are added")
+
+"""lecture  2"""
+"""WAP to find input the name of the user and find its length"""
+str=input("enter your name:")
+print (str)
+print (len(str))
