@@ -26,3 +26,6 @@ print ("the changes are added")
 str=input("enter your name:")
 print (str)
 print (len(str))
+"""Occurence of dollar in the string"""
+str1=input("enter the string:")
+print(str1.count("$"))
