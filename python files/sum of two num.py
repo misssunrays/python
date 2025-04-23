@@ -29,3 +29,13 @@ print (len(str))
 """Occurence of dollar in the string"""
 str1=input("enter the string:")
 print(str1.count("$"))
+"""CONDITIONS"""
+marks=75
+
+if(marks>=90):
+    print ("Grade is A")
+elif(marks<90 and marks>=80):
+    print("Grade is B ")
+elif(marks<80 and marks>=70):
+        print("Grade is c")
+         
