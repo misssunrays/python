@@ -39,7 +39,7 @@ elif(marks<90 and marks>=80):
     print("Grade is B ")
 elif(marks<80 and marks>=70):
         print("Grade is c") 
-        '''
+        
          # TUPLES AND LISTS
 #write a program to ask the user to enter the name of 3 favourite movies and store them in the list
 m1=str (input("enter the movie1:"))
@@ -51,4 +51,25 @@ movies.append(m2)
 movies.append(m3)
 print(movies)
 print(type(movies))
+  
+#WAP to check if the list is palindrome or not
+series=[]
+series.append(input("enter the first series:"))
+series.append(input("enter the second series:"))
+series.append(input("enter the third series:"))
+seriescopy=series.copy()
+seriescopy.reverse()
+if (series==seriescopy):
+    print ("the series is palindrome")
+else:
+    print("the series is not palindrome")
+'''
+#WAP to check the number of A in student's grade using tuple. store the above value in a list and then sort the
 
+grade=("a","b","c","d","e","a")
+print(grade.count("a")) 
+#converting tuple into list
+grade_list=list(grade)
+#sorting the list
+grade_list.sort(reverse=True)
+print(grade_list)
