@@ -64,7 +64,7 @@ if (series==seriescopy):
 else:
     print("the series is not palindrome")
 '''
-#WAP to check the number of A in student's grade using tuple. store the above value in a list and then sort the
+'''#WAP to check the number of A in student's grade using tuple. store the above value in a list and then sort the
 
 grade=("a","b","c","d","e","a")
 print(grade.count("a")) 
@@ -72,4 +72,15 @@ print(grade.count("a"))
 grade_list=list(grade)
 #sorting the list
 grade_list.sort(reverse=True)
-print(grade_list)
+print(grade_list)'''
+
+#WAP to construct the dictionary and search the value.
+dictionary={
+    "cat":"a small animal",
+    "table":["a piece of furniture","list of facts and figures"]
+}
+print(dictionary)
+#WAP to construct set of classrooms and count them
+set={"python","java","c++","javascript","python","java","c++","javascript"}
+print(len(set))
+print(type(set))
