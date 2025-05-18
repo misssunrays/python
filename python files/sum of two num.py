@@ -84,3 +84,21 @@ print(dictionary)
 set={"python","java","c++","javascript","python","java","c++","javascript"}
 print(len(set))
 print(type(set))
+
+#WAP to enter marks f 3 subjects and store them in a dictionar. start with an empty dictionary
+#and add one by one. use subject as key and marks as value
+marks={}#empty dictionary
+x=int(input("enter mark of phy:"))
+marks.update({"phy":x}) #passing the new key value pair
+print(marks["phy"])
+#store 8 and 8.0 separately in set
+set1={8,8.0}
+print(set1)
+'''it will print 8.0 only'''
+#hence we use built in data types like tuples or store in string format
+#set2={"8","8.0"} is one way
+set2={
+    ("float",8.0),
+    ("int",8)
+}
+print(set2) 
